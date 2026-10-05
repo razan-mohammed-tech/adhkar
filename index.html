@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>أذكاري | أذكار الصباح والمساء</title>
+<link rel="icon" type="image/png" href="logo.png">
 <meta name="description" content="موقع أذكار الصباح والمساء الصحيحة بمصادرها مع مسبحة إلكترونية لكل ذكر">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,6 +73,8 @@ body{
   border:1px solid rgba(255,255,255,.2);
 }
 .logo small{display:block;font-size:.72rem;color:var(--muted);font-weight:400;font-family:"IBM Plex Sans Arabic",sans-serif}
+.logo-img{background:#fff;border-radius:14px;padding:4px 10px;box-shadow:var(--shadow);border:1px solid var(--border);display:flex;align-items:center}
+.logo-img img{height:42px;width:auto;display:block}
 .controls{margin-inline-start:auto;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
 .btn{
   border:1px solid var(--border);background:var(--card);color:var(--text);
@@ -168,7 +171,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 1rem 2rem;color:var(--muted);fon
 <header class="topbar">
   <div class="topbar-inner">
     <div class="logo">
-      <div class="logo-mark">☪</div>
+      <div class="logo-img"><img src="logo.png" alt="شعار الابتدائية السابعة عشر"></div>
       <div>أذكاري<small>حصن المسلم اليومي • بمصادر صحيحة</small></div>
     </div>
     <div class="controls">
